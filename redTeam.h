@@ -11,7 +11,7 @@
 /* ----------------------------------------------------- Helper methods ---------------------------------------------------- */
 
 /**
-* ## Red Team - Akulov Natalia
+* ## Red Team
 * @brief Copies the content of the file at the specified path to the provided buffer.
 *
 * This function reads the content of a file and stores it in the provided buffer.
@@ -25,7 +25,7 @@ char* copyFileContentToBuffer(const char* path, char* buffer);
 
 
 /**
-* ## Red Team - Yarden Halely
+* ## Red Team 
 * @brief Checks if the given file name has a valid file type.
 *
 * This function examines the file extension of the given file name to determine
@@ -44,7 +44,7 @@ bool isValidFileType(const char* usersFile);
 
 
 /**
-* ## Red Team - Shai Salem
+* ## Red Team 
 * @brief Checks if the given path is an absolute path.
 *
 * This function determines whether a given file path is absolute or relative.
@@ -60,7 +60,7 @@ bool isAbsolutePath(const char* path);
 
 
 /**
-* ## Red Team - Elad Silam, Aviran Amrominm
+* ## Red Team 
 * @brief Gets the length of a file.
 *
 * This function opens the specified file, moves the file pointer to the end of the file,
@@ -73,7 +73,7 @@ size_t getFileLength(const char* filePath);
 
 
 /**
-* ## Red Team - Elad Silam, Aviran Amrominm
+* ## Red Team 
 * @brief Allocates memory based on size.
 *
 * This function allocates memory for a given number of bytes and returns a pointer to the allocated memory.
@@ -88,7 +88,7 @@ char* allocateMemory(size_t size);
 
 
 /**
-* ## Red Team - Akulov Natalia
+* ## Red Team 
 * @brief Reads the content of a file into a dynamically allocated string.
 *
 * This function reads the entire content of a file specified by its path,
