@@ -15,7 +15,7 @@
 
 
 /**
-* ## Green team - Loaie Shalloufi
+* ## Green team
 * @brief Duplicates a string without using built-in string functions.
 * This function creates a duplicate of the given string by manually calculating
 * its length, allocating the required memory, and copying each character to the
@@ -28,7 +28,7 @@ char* duplicateString(const char* original);
 
 
 /**
-* ## Green team - Loaie Shalloufi, Adan Kayouff
+* ## Green team
 * @brief Function generates new string of the current unix timestamp (seconds since epoch - 00:00:00 01/01/1970)
 *
 * @return Pointer to allocated string representing the current unix timestamp in seconds,
@@ -37,7 +37,7 @@ char* duplicateString(const char* original);
 char* getUnixTimestamp();
 
 /**
-* ## Green team - Loaie Shalloufi, Adan Kayouff
+* ## Green team 
 * @brief Function extracts and returns a string representing a file suffix (ending) from a file path.
 *
 * @param filePath : File path to extract from
@@ -47,7 +47,7 @@ char* getFileSuffix(char* filePath);
 
 
 /**
-* ## Green team - Evgeny Nemchenko, Leonid Shmiakin
+* ## Green team 
 * @brief Function allocates memory for a new string - representing a new file name made from:
 * the current Unix timestamp, with a given file suffix.
 *
@@ -62,7 +62,7 @@ char* allocateNewFileName(char* fileSuffix, char* unixTimestamp);
 
 
 /**
-* ## Green team - Loaie Shalloufi
+* ## Green team 
 * @brief Function builds a new file name by taking the current Unix timestamp (in seconds),
 * adding to it the file extension of a relative file path.
 *
@@ -73,7 +73,7 @@ char* allocateNewFileName(char* fileSuffix, char* unixTimestamp);
 char* generateNewFileName(char* filePath);
 
 /**
-* ## Green team - Carol harish, Kovalov alexey
+* ## Green team 
 * @brief Function writes given message in reverse to the provided file path
 *
 * @param str Pointer to a string of the message to be reversed
