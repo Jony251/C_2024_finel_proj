@@ -1,5 +1,3 @@
----
-
 # C\_2024\_finel\_proj
 
 ## Overview
